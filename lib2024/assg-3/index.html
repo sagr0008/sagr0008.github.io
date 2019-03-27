@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+ 		<title>Assignment 3</title>
+ 		<link rel="stylesheet" type="text/css" href="style.css">
+		
+	</head>
+<body>
+	<section>
+		<fieldset>
+    		<legend>Personal information:</legend>
+			<!--FIRST & LAST NAME INPUT-->
+			<form id="name-info" class="main-section">
+  				<div id="first-name container" class="form-elm">
+  					<label for="FirstName">First Name </label>
+  					<input type="text" name="firstname" placeholder="Enter first name here"><br>
+  				</div>
+ 				<div id="last-name container" class="form-elm" align="">
+  					<label for="LastName">Last Name </label>
+  					<input type="text" name="lastname" placeholder="Enter last name here"><br>
+  				</div>
+			<!--EMAIL & PASSWORD INPUT -->
+				<div id="email-container" class="form-elm">
+					<label for="email"> Email</label>
+					<input type="email" name="email" placeholder="example@g.com">
+				</div>
+				<div id="password-container" class="form-elm">
+					<label for="password">Password</label>
+					<input type="password" name="pass" id="pass">
+				</div>
+			<!--BIRTHDATE INPUT-->
+				<div id="birth-date-container" class="form-elm">
+					<label for="birth-date">Date of Birth:</label>
+						<input type="date" name="bday">  						
+				</div>
+				<div id="gender-selection" class="main-section">
+  					<input type="radio" name="gender" value="male" checked> Male<br>
+  					<input type="radio" name="gender" value="female"> Female<br>
+  					<input type="radio" name="gender" value="other">Other
+				</div>
+							
+  				<div>
+  					<label for="url" class="form-elm">Website:</label>
+ 					<input type="url" name="homepage">
+  				</div>
+			</form>
+		</fieldset>
+		<fieldset>
+  				<legend>Hobbies</legend>
+  				<div id="hobbies-container" class="form-elm">
+					<label for="sports">Sports</label>
+					<input type="checkbox" name="hobbies" id="sports" value="sports">
+
+					<label for="reading">Reading</label>
+					<input type="checkbox" name="hobbies" id="reading" value="reading">
+
+					<label for="video-games">Video Games</label>
+					<input type="checkbox" name="hobbies" id="video-games" value="video-games"> 
+
+					<label for="movies">Movies</label>
+					<input type="checkbox" name="hobbies" id="movies" value="movies"> 
+				</div>
+  			</fieldset>
+		<fieldset>
+			<legend>Introductory Text</legend>
+			<div id="sum-container" class="form-elm">
+					<label for="summary">Text:</label>
+					<textarea name="summary" id="summary" placeholder="Enter text here"></textarea>
+			</div>
+		</fieldset>
+		<fieldset>
+				<legend>Address and Contact Information</legend>
+				<div>
+					<label for="phone">Phone Number:</label>
+					<input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="10" placeholder="ex:1112223333" required>
+				</div>
+				<div id="address-container" class="form-elm">
+  					<label for="Address">Address </label>
+  					<input type="text" name="Address" placeholder="">
+  				</div>
+  				<div id="city-container" class="form-elm">
+  					<label for="City">City</label>
+  					<input type="text" name="City" placeholder="">
+  				</div>
+  				<div id="province-container" class="form-elm">
+  					<label for="province">Province:</label>
+					<select name="province" id="province">
+						<option value="Alberta">Alberta</option>
+						<option value="British Columbia">British Columbia</option>
+						<option value="Manitoba">Manitoba</option>
+						<option value="New Brunswick">New Brunswick</option>
+						<option value="Newfoundland & Labrador">Newfoundland & Labrador</option>
+						<option value="Northwest Territories">Northwest Territories</option>
+						<option value="Nova Scotia">Nova Scotia</option>
+						<option value="Nunavut">Nunavut</option>
+						<option value="Ontario">Ontario</option>
+						<option value="Prince Edward Island">Prince Edward Island</option>
+						<option value="Quebec">Quebec</option>
+						<option value="Saskatchewan">Saskatchewan</option>
+						<option value="Yukon">Yukon</option>
+					</select>
+  				</div>
+  				<div id="postal-code-container" class="form-elm">
+  					<label for="postal-code">Postal Code</label>
+  					<input type="text" name="postal-code" placeholder="ex:A1B2X7">
+  				</div>
+  				<div>
+  					<label for="country">Country</label>
+  					<select name="country" id="country">
+  						<option value="Canada">Canada</option>
+  						<option value="United States">United States</option>
+  					</select>
+  				</div>
+  			</fieldset>
+  			<button type="submit">Submit</button>
+	</section>
+	<section>
+		
+	</section>
+</body>
+</html>
