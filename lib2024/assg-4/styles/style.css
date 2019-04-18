@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+body {
+	background-color: beige;
+} 
+
+/*HEADER CSS*/
+.site-header {
+	font-family: 'MyWebFont' , Alpha Echo, sans-serif;
+	font-size: 28px;
+	font-weight: 900;
+	font-variant: small-caps;
+	margin: 3.15%;
+	background-color: darkolivegreen; 
+}
+
+.main-nav-container {
+	width: 97.3%;
+	background-color: darkolivegreen;
+	height: 40px;
+	padding-left: 2.7%
+	margin-top: 70px;
+}
+.main-nav-container:hover {
+	transform: scale(1.5); 
+	margin-left: 17%
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0; 
+
+} 
+
+ul {
+	background: darkolivegreen;
+	padding: 20px;
+}
+
+ul li {
+	width: 33%;
+	box-sizing: border-box;
+	float: left;
+	background: darkolivegreen; 
+}
+
+ul li {
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic; 
+	font-size: 20px
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+
+/*BODY CSS*/
+img {
+	border-radius: 50%; 
+	padding: 5px;
+	width: 450px;
+}
+/*So the images can scale down if they have to but don't scale up to fit the screen */
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/*Font*/
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-variant: small-caps;
+}
+
+p {
+	font-family: Arial, Helvetica, sans-serif;	
+}
+
+ol li {
+	font-family: Arial, Helvetica, sans-serif; 
+}
+section {
+	float: left;
+	margin: 0 2.5%;
+	width: 63%;
+}
+/*The Aside CSS*/
+aside {
+	display: block;
+	float: right;
+	margin: 0 2.5%
+	width: 30%;
+}
+
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-variant: small-caps;
+}
+div a {
+	font-family: Arial, Helvetica, sans-serif;
+	color: blue;
+	text-decoration: underline;
+}
+
+
+/*Footer Css*/
+footer {
+	clear: both;
+	position: relative;
+	margin-top: -40px;
+	height: 40px;
+	text-align: center;
+}
+
+footer {
+	float: bottom;
+}
+footer img {
+	border-radius: 50%; 
+	padding: 5px;
+	width: 50px;
+}
