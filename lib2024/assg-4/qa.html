@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Q & A Compilation</title>
+	</head>
+	<body>
+		<h1>Q & A Compilation</h1>
+		<p>(Note: I'm am unable to use a pdf for some reason so I put all of the questions and my answers in this html document.)</p>
+		<section class="main-section" id="main-section"> 
+			<ol>
+				<li><b>What are the three components of Web?</b></li>
+					<p>HTML, CSS and JavaScript are the three components of Web.</p>
+
+				<li><b>Define version control and give one example.</b></li>
+					<p>Version control is a system that you can use to keep the changes made to a file or files but then you can pull up the different versions of those files at a later date. An example of a version control system is GitHub.</p>
+				
+				<li><b>What tag is used to create the title of a web page? Give an example.</b></li>
+					<p>The title tag is used to create a title. It is always present in the HEAD element. Here is an example...&lt;title>Random title &lt;/title></p>
+				
+				<li><b>What tag is used to create a paragraph in html? Give an example.</b></li>
+					<p>The paragraph tag is used to create a paragraph in html. It is found in the body element. Here is an example....&lt;p>This is a paragrph&lt;/p></p>
+				
+				<li><b>Identify the odd one from these tags: &lt;span>, &lt;p>, &lt;a>, &lt;i>  and state the reason?</b>
+				</li>
+					<p> I think that &lt;i> is the odd one out because it is the only one that changes the writting on a document. The other three change the formatting of the document itself.They are inline elements.</p>
+				
+				<li><b>What are the tags required to create a navigation list in HTML? </b></li>
+					<p>The tags required to create a navigation list in HTML is &lt;nav>, &lt;li> and &lt;a>. </p>
+				
+				<li><b>What element is used to create images? Name its attributes.</b> </li>
+					<p> The &lt;img> tag is used to create images in html documents. The permitted attributes are ID, LANG, CLASS, SRC, MD, WIDTH, HEIGHT, UNITS, ALIGN, ALT and ISMAP. </p>
+				
+				<li><b>Identify the odd one from these tags: &lt;table>, &lt;tr>, &lt;b>, &lt;td>  and state the reason</b></li>
+					<p>The odd one from these tags is &lt;b> because the other three are all elemants in creating a table. the &lt;b> is used to make text <b>bold</b>.</p>
+
+				<li><b>Give an example of color picker input.</b></li>
+					<p>You use the tag &lt;input type="color">. For examlple:
+						<div>
+							<input type="color" value="#e66465">
+							<input type="color" value="#ff0000">
+						</div>
+
+					</p>
+				<li><b>What is the use of name and value attributes? Give two examples</b></li>
+					<p>For iframe elements, it can be used to target a form submission. For the map element, the name attribute is associated with the &lt;img>'s usemap attribute and creates a relationship between the image and the map. For the meta element, the name attribute specifies a name for the information/value of the content attribute.The value attribute specifies the value of an &lt;input> element. The value attribute is used differently for different input types: For "button", "reset", and "submit" - it defines the text on the button.</p>
+
+				<li><b>Give an example of inline style.</b></li>
+					<p style="color: #ff9900">This text has been styled using inline style sheets.</p>
+
+				<li><b>How would you link an external style sheet? Give example.</b></li> 
+					<p>The page must include a reference to the external style sheet file inside the &lt;link> element. The &lt;link> element goes inside the &lt;head> section:<br> 
+						&lt;head><br>
+							&emsp;&lt;link rel="stylesheet" type="text/css" href="mystyle.css"><br>
+					&lt;/head></p>
+				<li><b>Create CSS block to center an element both horizontally and vertically that has position:absolute and has width:200px and height:200px.</b></li>
+					<p>
+						In the html document it'll look like this :<br> 
+						&lt;div class=container><br>
+							&emsp;&lt;p>Centered!&lt;/p><br>
+						&lt;/div> <br>
+						<br>For the CSS it'll look like this: <br>
+						div.container { <br>
+    					height: 200px; <br>
+    					position: absolute <br>
+    					} <br>
+    					<br>
+						div.container p {<br>
+    					margin: 0;<br>
+    					position: absolute;<br>
+    					top: 50%; <br>
+    					left: 50%;<br>
+    					margin-right: -50%;<br>
+    					transform: translate(-50%, -50%) <br>
+    					}
+					</p>
+				<li><b>Create CSS keyframes block called "spin" that rotates an element.</b></li>
+					<p>
+						div {<br>
+  						width: 100px;<br>
+ 						height: 100px;<br>
+  						background-color: #0CB1C4;<br>
+  						animation-name: spin;<br>
+ 						animation-duration: 5000ms;<br>
+  						animation-iteration-count: infinite;<br>
+  						animation-timing-function: linear; <br>
+  						/* transform: rotate(3deg); */<br>
+   						/* transform: rotate(0.3rad);/ */<br>
+   						/* transform: rotate(3grad); */ <br>
+   						/* transform: rotate(.03turn);  */<br>
+						}<br>
+						<br>
+						@keyframes spin {<br>
+    					<br>
+    					from { <br>
+        				transform:rotate(0deg);<br>
+    					}<br>
+   					 	to {<br>
+        				transform:rotate(360deg);<br>
+    					}
+					</p>
+				<li><b>Create CSS animation block to rotate an element that has the following properties : class "rotate-me"
+					It rotates 5 times at intervals of 0.5s with "linear" transition using animation keyframes "spin"</b> 
+				</li>
+					<p>
+					div { <br>
+						width: 100px; <br>
+						height: 100px; <br>
+						position: relative;<br>
+						animation-name: rotate-me;<br>
+						animation-duration: 7s;<br>
+						animation-iteration-count: 5;<br>
+					}<br>
+					#div {animation-timing-function:linear;}
+					</p>
+				<li><b>How would you include create an alert with string "I love JavaScript" using JavaScript?</b></li>
+					<p>
+						window.alert ("I love Javascript");
+					</p>
+
+				<li><b>How would you fade out an element with id "fade-me" after a delay of 300ms using JQuery?</b></li>
+					<p>
+						$("button").click(function() {
+							$("#fade-me").fadeOut(300)
+						});
+					</p>
+
+				<li><b>How would you select all elements with class "my-class" using Javascript and Jquery?</b></li>
+					<p>
+						$(".my-class")
+					</p>
+
+				<li><b>Give an example of input field that takes phone number with format "123-456-7890"?</b></li>
+					<p>
+						<label for="phone">Enter Phone Number:</label>
+						<input type="tel" id="phone"name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+					</p>
+
+				<li><b>Among HTML, CSS, Javascript, JQuery, what language did you like the best? State the reason. </b></li>
+					<p>HTML was the easiest for me to understand and grasp. But despite the beginning struggle I had with CSS, I did enjoy it. Because I liked the creativity of it. I don't understand Javascript or JQuery enough to say I like it.</p>
+			</ol>
+		</section>
+	</body>
+</html>
