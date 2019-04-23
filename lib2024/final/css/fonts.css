@@ -1,0 +1,53 @@
+@charset "utf-8";
+/*HEADER FONT CSS*/
+.site-header {
+	font-family: 'Francois One', francois, open-serif;
+	font-size: 28px;
+	font-weight: 900;
+	font-variant: small-caps;
+	color:#72A9AE;
+}
+
+ul li {
+	font-family: 'Francois One', francois, open-serif;
+	font-style: normal; 
+	font-size: 17px
+}
+/*ARTICLE FONT CSS*/
+article h2 {
+	font-family: 'Francois One', francois, open-serif;
+	font-variant: small-caps;
+	color:#72A9AE;
+	font-size: 25px;
+}
+article p {
+	font-family: 'Montserrat', montserrat, sans-serif;
+	font-style: normal; 
+	font-size: 15px
+}
+/*TABLE FONT CSS*/
+thead {
+	font-variant: small-caps;
+	font-family: 'Francois One', francois, open-serif;
+	color:#72A9AE;
+	font-size: 25px;
+}
+table {
+	font-family: 'Montserrat', montserrat, sans-serif;
+	font-style: normal; 
+}
+
+/*PROFILE INFORMATION SECTION FONT CSS*/
+
+section h2 {
+	font-variant: small-caps;
+	font-family: 'Francois One', francois, open-serif;
+	color:#72A9AE;
+	font-size: 25px;
+}
+/*FOOTER FONT CSS*/
+h3 {
+	font-family: 'Francois One', francois, open-serif;
+	color: white;
+
+}
