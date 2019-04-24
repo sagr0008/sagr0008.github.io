@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Q&A QUESTIONS FOR FINAL</title>
+	</head>
+	<body>
+		<ol>
+			<li><b>How would you add comment in CSS?</b></li>
+			<p>ANS:CSS uses the same "block comment" syntax as the C-like languages - you start a comment with /* , and end it with */ . </p>
+			<li><b>How would you create media query for screen size more than 768px?</b></li>
+			 <p>ANS:/* For mobile phones: */ <br>
+					[class*="col-"] {<br>
+  					width: 100%;<br>
+					}<br>
+<br>
+				@media only screen and (min-width: 768px) {<br>
+  					/* For desktop: */<br>
+  				.col-1 {width: 8.33%;}<br>
+  				.col-2 {width: 16.66%;}<br>
+  				.col-3 {width: 25%;}<br>
+  				.col-4 {width: 33.33%;}<br>
+  				.col-5 {width: 41.66%;}<br>
+  				.col-6 {width: 50%;}<br>
+  				.col-7 {width: 58.33%;}<br>
+  				.col-8 {width: 66.66%;}<br>
+  				.col-9 {width: 75%;}<br>
+  				.col-10 {width: 83.33%;}<br>
+  				.col-11 {width: 91.66%;}<br>
+  				.col-12 {width: 100%;}<br>
+}</p>
+			<li><b>How would you select &lt;a> tag that has attribute "href" ending with .pdf using CSS?</b></li>
+				<p>ANS: a[href$=".pdf"]</p>
+			<li><b>How would you select first &lt;li> using CSS? </b></li>
+			<p>ANS:li:first-child { </p>
+			<li><b>How would you select 8th &lt;p> element using CSS?</b></li>
+			<p>ANS: p:eigth-child(2)</p>
+			<li><b>Define Javascript?</b></li>
+			<p>ANS: Javascript is an object-oriented computer programming language commonly used to create interactive effects within web browsers.</p>
+			<li><b>How would you select an element by Class using Javascript?</b></li>
+			<p>ANS:var x = document.getElementsByClassName("example");</p>
+			<li><b>How would you select an element by ID using Javascript?</b></li>
+			<p>ANS:document.getElementById("demo");</p>
+			<li><b>What is used to select/change HTML of an element using Javascript?</b></li>
+			<p>ANS:&lt;element onchange="myScript"></p>
+			<li><b>How would you create an alert using Javascript?</b> </li>
+			<p>ANS: window.alert("I am an Alert!");</p>
+		</ol>
+	</body>
+</html>
